@@ -1,14 +1,24 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './compo/Footer';
 import Nav from './compo/Nav';
+import Timer from './compo/Timer';
+import Clock from './compo/Clock';
+import Alarm from './compo/Alarm';
+import Stopwatch from './compo/Stopwatch';
 
 function App() {
   return (
-    <div className="App bg-slate-300">
+    <div className="">
       <Nav />
-      <h1 className="text-3xl text-cyan-400 font-bold">
-        Hello world!
-      </h1>
+      <Routes>
+        <Route path="/" element={<Clock/>}/>
+        <Route path="alarm" element={<Alarm />}/>
+        <Route path="timer" element={<Timer />}/>
+        <Route path="stopwatch" element={<Stopwatch />}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }
