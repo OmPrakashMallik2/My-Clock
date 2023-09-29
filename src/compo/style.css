@@ -1,31 +1,3 @@
-/* styles.css */
-
-/* .digital-clock {
-    font-size: 3rem;
-    font-weight: bold;
-  } */
-
-.time {
-    display: inline-block;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
 
 /* styles.css */
 
-.digital-clock {
-    font-size: 3rem;
-    font-weight: bold;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}

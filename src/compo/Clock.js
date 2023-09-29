@@ -18,9 +18,9 @@ function DigitalClock() {
 
   return (
     <div className='p-5'>
-      <h1 className='text-green-700 font-bold text-center text-5xl'>Digital Clock</h1>
-      <div className="digital-clock text-white text-center">
-        <div className="time">
+      <h1 className='text-green-700 font-bold text-center text-4xl'>Digital Clock</h1>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="time text-7xl text-white font-bold">
           {hours < 10 ? `0${hours}` : hours}: 
           {minutes < 10 ? `0${minutes}` : minutes}: 
           {seconds < 10 ? `0${seconds}` : seconds}
